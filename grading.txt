@@ -1,0 +1,5 @@
+Grader: Will Rosenberg
+
+-2 Lines over 80 characters
+-1 no file header for csim.c
+-2 no function descriptions
