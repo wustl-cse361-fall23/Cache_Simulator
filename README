@@ -1,22 +1,8 @@
-This is the handout directory for the CS:APP Cache Lab. 
 
-************************
-Running the autograders:
-************************
+Cache simulator that takes in the given cache configuration and a valgrind tracefile. It returns hit_count, miss_count, eviction_count,
+dirty_bytes_evicted, dirty_bytes_active, and double_references.
 
-Before running the autograders, compile your code:
-    linux> make
-
-Check the correctness of your simulator:
-    linux> ./test-csim
-
-Check the correctness and performance of your transpose functions:
-    linux> ./test-trans -M 32 -N 32
-    linux> ./test-trans -M 64 -N 64
-    linux> ./test-trans -M 61 -N 67
-
-Check everything at once (this is the program that your instructor runs):
-    linux> ./driver.py    
+After compiling, run test-csim to load up and execute simulation on the trace files found in the traces subdirectory.
 
 ******
 Files:
@@ -26,7 +12,7 @@ Files:
 csim.c       Your cache simulator
 trans.c      Your transpose function
 
-# Tools for evaluating your simulator and transpose function
+# Tools for evaluating simulator and transpose function
 Makefile     Builds the simulator and tools
 README       This file
 driver.py*   The driver program, runs test-csim and test-trans
