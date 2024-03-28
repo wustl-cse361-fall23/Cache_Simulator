@@ -8,9 +8,6 @@ After compiling, run test-csim to load up and execute simulation on the trace fi
 Files:
 ******
 
-# You will modifying and handing in these two files
-csim.c       Your cache simulator
-trans.c      Your transpose function
 
 # Tools for evaluating simulator and transpose function
 Makefile     Builds the simulator and tools
